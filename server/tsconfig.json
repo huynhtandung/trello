@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "checkJs": true,
+    "baseUrl": "./src",
+    "paths": {
+      "@constants": ["constants"],
+      "@environments": ["environments"],
+      "@middlewares": ["middlewares"],
+      "@models": ["models"],
+      "@routers": ["routers"],
+      "@services": ["services"],
+      "@utils": ["utils"],
+      "@validations": ["validations"],
+      "@socket": ["socket.ts"]
+    }
+  },
+  "include": ["./src/**/*.ts"]
+}

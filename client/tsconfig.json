@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "checkJs": true,
+    "baseUrl": ".",
+    "jsx": "react",
+    "paths": {
+      "@apis": ["./src/apis/index"],
+      "@assets": ["./src/assets"],
+      "@common": ["./src/common/index"],
+      "@components/*": ["./src/components/*"],
+      "@config": ["./src/config/index"],
+      "@constants": ["./src/constants/index"],
+      "@environments": ["./src/environments/index"],
+      "@pages/*": ["./src/pages/*"],
+      "@stores/*": ["./src/stores/*"],
+      "@types": ["./src/types/index"],
+      "@socket": ["./src/socket.ts"]
+    }
+  },
+  "include": ["src", "./custom.d.ts"],
+}

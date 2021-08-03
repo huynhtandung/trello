@@ -1,0 +1,8 @@
+.ant-popover-title {
+  color: #026AA7 !important;
+}
+
+.ant-popover-inner-content {
+  height: 300px;
+  overflow: auto;
+}
